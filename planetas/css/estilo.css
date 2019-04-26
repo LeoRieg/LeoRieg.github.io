@@ -1,0 +1,80 @@
+
+html{
+	scroll-behavior: smooth;
+	transition: 0.9;
+}
+
+body{
+
+	background-color: black;
+	color:yellow; 
+
+}
+
+h1{
+	color:red;
+	text-shadow: 10px 10px 10px blue;
+}
+
+h2,h3{
+	color:yellow;
+	text-shadow: 10px 10px 10px red;
+	
+}
+
+
+.astro{
+	width:500px; height: 500px;
+	/*largura = altura => quadrado*/
+	border-radius: 50%;/*arredondamento*/
+	border: 5px yellow solid; /*borda*/	
+	display: block;
+	margin: 0 auto;/*centraliza a imagem*/
+	box-shadow: 0 0 30px red;/*brilho*/
+}
+
+.btn{
+	border-radius: 5px;
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	background-color: white;
+	width: 50px;
+	display:block;
+	margin:0 auto;
+	padding: 20px;
+	font-size:15px;
+}
+
+.btn:hover{
+
+	box-shadow: 0 0 5px yellow;
+}
+
+
+ul{
+	position: sticky;
+	top:0;
+	list-style: none;
+	margin: 0;
+	 padding: 0;
+	 overflow: hidden;
+	 background-color: deepSkyBlue;
+	
+}
+
+li{
+	float: left;
+}
+
+/*link dentro da lista*/
+li a{
+display: block;
+
+font-size:22px;
+background-color: deepSkyBlue;
+padding: 14px 16px;
+text-align: center;
+text-decoration:none;  
+}
+
